@@ -1,0 +1,47 @@
+.div1{
+background-color: darkred;
+color: black;
+text-align: center;
+padding-top: 0%;
+border: 5px;
+width: 250px;
+border-style: solid;
+border-color: black;
+height: 100px;
+}
+
+.div2{
+background-color: darkgreen;
+color: black;
+text-align: center;
+padding-top: 0%;
+border: 5px;
+border-style: solid;
+border-color: black;
+width: 250px;
+height: 100px;
+}
+
+.div3{
+background-color: blue;
+color: black;
+text-align: center;
+padding-top: 0%;
+border: 5px;
+border-style: solid;
+border-color: black;
+width: 250px;
+height: 100px;
+}
+
+.div4{
+background-color: yellow;
+color: black;
+text-align: center;
+padding-top: 0%;
+border: 5px;
+border-style: solid;
+border-color: black;
+width: 250px;
+height: 100px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Register</title>
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+  <h1>Binus Relawan Digital</h1>
+  <div class="register">
+    <form method="POST" action="" id ="register">
+      <h2>Register Here</h2>
+      <label for=""> Full Name  :</label> <br>
+      <input type="text" name="fname" id="name" placeholder="fill your full name"> <br><br>
+      <input type="radio" name="male" id="male"><span id="male">&nbsp; Male</span>&nbsp; &nbsp;
+      <input type="radio" name="female" id="female"><span id="female">&nbsp; Female</span>&nbsp; &nbsp; <br><br>
+      <label for=""> Address  :</label> <br>
+      <input type="text" name="address" id="add" placeholder="fill your address"> <br><br>
+      <label for=""> Email  :</label> <br>
+      <input type="email" name="email" id="mail" placeholder="fill your full email"> <br><br>
+      <label for=""> Phone Number :</label> <br>
+      <input type="text" name="phone" id="pn" placeholder="fill your phone number"> <br><br>
+      <label for=""> Sebagai :</label> <br>
+      <select name="sebagai" id="sbg">
+        <option value="mhs">Mahasiswa</option>
+        <option value="dos">Dosen</option>
+        <option value="staff">Staff Binus</option>
+      </select> <br><br>
+      <label for=""> Media Sosial Platform :</label> <br>
+      <select name="media" id="medsos">
+        <option value="fb"> Facebook</option>
+        <option value="ig"> Instagram</option>
+        <option value="yt"> Youtube</option>
+        <option value="bg">Blogger</option>
+      </select><br><br>
+      <label for=""> Nama Akun :</label> <br>
+      <input type="text" name="Akun" id="uname" placeholder="fill your Account Username"> <br><br>
+      <input type="button" value="Submit" id="sub" onclick="window.alert('Data anda berhasil tersimpah, dan anda telah Registed!')">
+    </form>
+    </div>
+  </div>
+  <div class="footer">
+    <h3>binus.ac.id</h3>
+  </div>
+</body>
+</html>

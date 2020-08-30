@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: black;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+  padding: 50px;
+}
+
+.bold{
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi_bold{
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.reguler{
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.cv{
+  width: 850px;
+  height: auto;
+  display: flex ;
+  margin: 50px auto;
+}
+
+.cv_left{
+  background: seagreen;
+}
+
+.profile{
+  width: 100%;
+}
+
+.profile img{
+  height: 300px;
+  padding-top: 20px;
+  margin: auto;
+  display: block;
+}
+
+.content{
+  padding: 0 50px;
+}
+
+.tittle{
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.cv_left .bold{
+  color: white;
+}
+
+.cv_left .reguler{
+  color: ivory;
+}
+
+.cv_item{
+  padding: 25px 0;
+  border-bottom: white 2px solid;
+}
+
+.cv_item:last-child{
+  border-bottom: 0px;
+}
+
+.cv_left ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cv_left ul li :last-child{
+  margin-bottom: 0;
+}
+
+.cv_left ul li .icon{
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  color: darkgreen;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+.icon i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skills ul li{
+justify-content: space-between;
+}
+
+.skill_name{
+  width: 25%;
+}
+
+.Skill_progress{
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background-color: black;
+  position: relative;
+}
+
+.skiil_per{
+  width: 15%;
+}
+
+.Skill_progress span{
+  position: absolute;
+  top: 0;
+  margin-left: 0;
+  height: 100%;
+  background: darkgreen;
+}
+
+.cv_right{
+  width: 520px;
+  background-color:gray ;
+  padding: 25px;
+}
+.education ul, .job ul, .project ul{
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.cv_right ul li{
+  position: relative;
+}
+
+ul li .date{
+   font-size: 15px;
+   font-weight: 500;
+   margin-bottom: 15px;
+}
+
+ul li .infor{
+  margin-bottom: 20px;
+}
+
+ul li .infor :last-child{
+  margin-bottom: 0;
+}
+
+.education ul li ::before, .job ul li ::before, .project ul li ::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: darkgreen solid 2px;
+}
+
+.education ul li ::after, .job ul li ::after, .project ul li ::after{
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 85px;
+  background-color: darkgreen ;
+}
