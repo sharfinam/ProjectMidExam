@@ -1,3 +1,2 @@
-# cv
-task from Mid Exam
-# MidExam
+# ProjectMidExam
+small project from Mid Exam
